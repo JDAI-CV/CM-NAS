@@ -26,17 +26,17 @@ Codes will be released soon.
 ## Train
 Before training, please download the searched configurations.
 
-- For SYSU-MM01, first run [./utils/pre_process_sysu.py]() to prepare data, then configure `data_root` path in [train_sysu.sh]() and run [train_sysu.sh]().
-- For RegDB, configure `data_root` path in [train_regdb.sh]() and run [train_regdb.sh]().
+- For SYSU-MM01, first run [./utils/pre_process_sysu.py](https://github.com/JDAI-CV/CM-NAS/blob/main/utils/pre_process_sysu.py) to prepare data, then configure `data_root` path in [train_sysu.sh](https://github.com/JDAI-CV/CM-NAS/blob/main/train_sysu.sh) and run [train_sysu.sh](https://github.com/JDAI-CV/CM-NAS/blob/main/train_sysu.sh).
+- For RegDB, configure `data_root` path in [train_regdb.sh](https://github.com/JDAI-CV/CM-NAS/blob/main/train_regdb.sh) and run [train_regdb.sh](https://github.com/JDAI-CV/CM-NAS/blob/main/train_regdb.sh).
 
 ## Test
 Before testing, please download the searched configurations and the trained models.
 
-- For SYSU-MM01, configure `data_root` path in [test_sysu.sh]() and run [test_sysu.sh]().
-- For RegDB, configure `data_root` path in [test_regdb.sh]() and run [test_regdb.sh]().
+- For SYSU-MM01, configure `data_root` path in [test_sysu.sh](https://github.com/JDAI-CV/CM-NAS/blob/main/test_sysu.sh) and run [test_sysu.sh](https://github.com/JDAI-CV/CM-NAS/blob/main/test_sysu.sh).
+- For RegDB, configure `data_root` path in [test_regdb.sh](https://github.com/JDAI-CV/CM-NAS/blob/main/test_regdb.sh) and run [test_regdb.sh](https://github.com/JDAI-CV/CM-NAS/blob/main/test_regdb.sh).
 
 ## License
-CM-NAS is released under the Apache License 2.0. Please see the [LICENSE]() file for more information.
+CM-NAS is released under the Apache License 2.0. Please see the [LICENSE](https://github.com/JDAI-CV/CM-NAS/blob/main/LICENSE) file for more information.
 
 ## Citation
 Please consider citing our paper in your publications if the project helps your research. BibTeX reference is as follows.
