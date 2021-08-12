@@ -11,12 +11,12 @@ Our experiments are conducted under the following environments:
 - torchvision == 0.4.2 <br>
 
 ## Model Zoo
-The searched configurations and the trained models can be downloaded in the following links.
+The searched configurations and the trained models can be downloaded in this [link](https://drive.google.com/drive/folders/1eLOrUYVAPTLT9BuUsgMCutRqMmhNgY8I).
 
-Dataset | Method | Protocol | Rank-1 | mAP | Protocol | Rank-1 | mAP | Trained Model
-:---- | :-----: | :----: | :----: | :----: | :----: | :----:| :----: | :----:
-SYSU-MM01 | CM-NAS | All-Single | 61.99% | 60.02% | Indoor-Single | 67.01% | 72.95% | [Google Drive]()
-RegDB | CM-NAS | V-to-I | 84.54% | 80.32% | I-to-V | 82.57% | 78.31% | [Google Drive]()
+Dataset | Protocol | Rank-1 | mAP | Protocol | Rank-1 | mAP | Trained Model
+:---- | :----: | :----: | :----: | :----: | :----:| :----: | :----:
+SYSU-MM01 | All-Single | 61.99% | 60.02% | Indoor-Single | 67.01% | 72.95% | [Google Drive](https://drive.google.com/drive/folders/1NlMPe8pneKiSAOl3VezNq9VWZcbnQwEC)
+RegDB | Vis-to-Inf | 84.54% | 80.32% | Inf-to-Vis | 82.57% | 78.31% | [Google Drive](https://drive.google.com/drive/folders/1_afR3rtHlS-i7-M9BWOESRBxKp_w3r33)
 
 Noet, the results may have some fluctuations caused by random spliting the datasets.
 
@@ -48,3 +48,7 @@ Please consider citing our paper in your publications if the project helps your 
   year      =  {2021}
 }
 ```
+
+## Acknowledgements
+This repo is based on the following repo, thank the authors a lot.
+- [mangye16/Cross-Modal-Re-ID-baseline](https://github.com/mangye16/Cross-Modal-Re-ID-baseline)
